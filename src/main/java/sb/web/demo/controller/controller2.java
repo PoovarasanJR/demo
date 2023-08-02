@@ -65,8 +65,9 @@ public class controller2 {
 	public EntityModel<User> retrieveUser(@PathVariable int id) {
 		Optional<User> user = userRepository.findById(id);
 
-		if (!user.isPresent())
+		if (!user.isPresent()) {
 			throw new UserNotFoundException("id-" + id);
+		}
 
 		// "all-users", SERVER_PATH + "/users"
 		// retrieveAllUsers
