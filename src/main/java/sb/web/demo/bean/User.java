@@ -1,4 +1,4 @@
-package sb.web.demo.controller;
+package sb.web.demo.bean;
 
 import java.util.Date;
 import java.util.List;

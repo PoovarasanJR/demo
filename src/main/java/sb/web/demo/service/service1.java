@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import sb.web.demo.controller.User;
+import sb.web.demo.bean.User;
 @Service
 public class service1 {
 	

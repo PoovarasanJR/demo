@@ -22,6 +22,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import sb.web.demo.bean.Post;
+import sb.web.demo.bean.User;
+import sb.web.demo.repository.PostRepository;
+import sb.web.demo.repository.UserRepository;
+
 
 @RestController
 @RequestMapping(value="/control2")
